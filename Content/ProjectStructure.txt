@@ -1,0 +1,732 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 6E3C-F934
+D:.
+|   BP_LevelTransition.uasset
+|   home.umap
+|   LV_home.umap
+|   ProjectStructure.txt
+|   
++---Collections
++---Core
+|   +---Blueprints
+|   |       ABP_Blind_Character.uasset
+|   |       ABP_GuideDog.uasset
+|   |       BPI_StoryInteraction.uasset
+|   |       BP_BeyondSight_GameMode.uasset
+|   |       BP_PlayerController.uasset
+|   |       BP_StoryTrigger.uasset
+|   |       BS_Dog_Locomotion.uasset
+|   |       BS_Human_Locomotion.uasset
+|   |       
+|   +---Characters
+|   |       BP_Blind_Character.uasset
+|   |       BP_GuideDogCharacter.uasset
+|   |       
+|   +---FirstPerson
+|   |   +---Anims
+|   |   |       ABP_FP_Copy.uasset
+|   |   |       CtrlRig_FPWarp.uasset
+|   |   |       
+|   |   \---Blueprints
+|   |           BP_FirstPersonCameraManager.uasset
+|   |           BP_FirstPersonCharacter.uasset
+|   |           
+|   +---Font
+|   |       Baloo2-VariableFont_wght.uasset
+|   |       Baloo2-VariableFont_wght_Font.uasset
+|   |       
+|   +---Input
+|   |   |   IA_Switch.uasset
+|   |   |   IMC_Default.uasset
+|   |   |   
+|   |   +---Actions
+|   |   |       IA_Jump.uasset
+|   |   |       IA_Look.uasset
+|   |   |       IA_MouseLook.uasset
+|   |   |       IA_Move.uasset
+|   |   |       
+|   |   \---Touch
+|   |           BPI_TouchInterface.uasset
+|   |           UI_Thumbstick.uasset
+|   |           UI_TouchSimple.uasset
+|   |           
+|   +---InteractionSystem
+|   |   +---ActorComponenets
+|   |   |       BPC_PlayerInteraction.uasset
+|   |   |       
+|   |   +---Demo
+|   |   |   \---Input
+|   |   |       \---Actions
+|   |   |               IA_Interact.uasset
+|   |   |               
+|   |   +---Enums
+|   |   |       E_InteractionType.uasset
+|   |   |       
+|   |   +---Interactables
+|   |   |   \---Base
+|   |   |           BP_CallDog_AtWindow.uasset
+|   |   |           BP_InteractableBase.uasset
+|   |   |           BP_MySlidingDoor.uasset
+|   |   |           BP_Pickup_Clothes.uasset
+|   |   |           BP_Pickup_rope.uasset
+|   |   |           BP_TemptationTrigger.uasset
+|   |   |           
+|   |   +---Interfaces
+|   |   |       BPI_Interactable.uasset
+|   |   |       
+|   |   \---UI
+|   |           WB_FeedbackPrompt.uasset
+|   |           WB_InteractionWidget.uasset
+|   |           WB_ResistPrompt.uasset
+|   |           WB_Tip_HoldE_Tab.uasset
+|   |           
+|   \---Materials
+|       |   MPC_BlindEffect_cf.uasset
+|       |   M_BlindVision_PPA_cf.uasset
+|       |   
+|       +---Characters
+|       |   +---Cool_Man
+|       |   |   +---Materials
+|       |   |   |       Wolf3D_Body.uasset
+|       |   |   |       Wolf3D_Eye.uasset
+|       |   |   |       Wolf3D_Glasses.uasset
+|       |   |   |       Wolf3D_Hair.uasset
+|       |   |   |       Wolf3D_Outfit_Bottom.uasset
+|       |   |   |       Wolf3D_Outfit_Footwear.uasset
+|       |   |   |       Wolf3D_Outfit_Top.uasset
+|       |   |   |       Wolf3D_Skin.uasset
+|       |   |   |       Wolf3D_Teeth.uasset
+|       |   |   |       
+|       |   |   +---SkeletalMeshes
+|       |   |   |       Cool_Man.uasset
+|       |   |   |       Cool_Man_PhysicsAsset.uasset
+|       |   |   |       Cool_Man_Skeleton.uasset
+|       |   |   |       idle.uasset
+|       |   |   |       Walker_Walk.uasset
+|       |   |   |       
+|       |   |   \---Textures
+|       |   |           baseColor.uasset
+|       |   |           baseColor1.uasset
+|       |   |           baseColor12.uasset
+|       |   |           baseColor123.uasset
+|       |   |           glasses_id_6a_D.uasset
+|       |   |           glasses_id_gold_M-glasses_id_gold_R.uasset
+|       |   |           hair-80-N.uasset
+|       |   |           Image_0.uasset
+|       |   |           Image_1.uasset
+|       |   |           Image_2.uasset
+|       |   |           Image_3.uasset
+|       |   |           Image_4.uasset
+|       |   |           Image_5.uasset
+|       |   |           Image_6.uasset
+|       |   |           Image_7.uasset
+|       |   |           Image_8.uasset
+|       |   |           Image_9.uasset
+|       |   |           Wolf3D_Teeth.uasset
+|       |   |           
+|       |   +---labrador_dog_from_cotw_game_
+|       |   |   +---Materials
+|       |   |   |       Coat.uasset
+|       |   |   |       Labrador_Retriever_Whiskers_002.uasset
+|       |   |   |       
+|       |   |   +---SkeletalMeshes
+|       |   |   |       Armature_labrador_idle_step_bwd_short_01.uasset
+|       |   |   |       Armature_labrador_trot_fwd_01.uasset
+|       |   |   |       Armature_labrador_walk_fwd_01.uasset
+|       |   |   |       labrador_dog_from_cotw_game_.uasset
+|       |   |   |       labrador_dog_from_cotw_game__PhysicsAsset.uasset
+|       |   |   |       labrador_dog_from_cotw_game__Skeleton.uasset
+|       |   |   |       
+|       |   |   \---Textures
+|       |   |           labrador_dog_from_cotw_game__texture_0.uasset
+|       |   |           
+|       |   \---Mannequins
+|       |       +---Anims
+|       |       |   \---Unarmed
+|       |       |       |   ABP_Unarmed.uasset
+|       |       |       |   BS_Idle_Walk_Run.uasset
+|       |       |       |   MM_Idle.uasset
+|       |       |       |   
+|       |       |       +---Jog
+|       |       |       |       MF_Unarmed_Jog_Bwd.uasset
+|       |       |       |       MF_Unarmed_Jog_Bwd_Left.uasset
+|       |       |       |       MF_Unarmed_Jog_Bwd_Right.uasset
+|       |       |       |       MF_Unarmed_Jog_Fwd.uasset
+|       |       |       |       MF_Unarmed_Jog_Fwd_Left.uasset
+|       |       |       |       MF_Unarmed_Jog_Fwd_Right.uasset
+|       |       |       |       MF_Unarmed_Jog_Left.uasset
+|       |       |       |       MF_Unarmed_Jog_Right.uasset
+|       |       |       |       
+|       |       |       +---Jump
+|       |       |       |       MM_Fall_Loop.uasset
+|       |       |       |       MM_Jump.uasset
+|       |       |       |       MM_Land.uasset
+|       |       |       |       
+|       |       |       \---Walk
+|       |       |               MF_Unarmed_Walk_Bwd.uasset
+|       |       |               MF_Unarmed_Walk_Bwd_Left.uasset
+|       |       |               MF_Unarmed_Walk_Bwd_Right.uasset
+|       |       |               MF_Unarmed_Walk_Fwd.uasset
+|       |       |               MF_Unarmed_Walk_Fwd_Left.uasset
+|       |       |               MF_Unarmed_Walk_Fwd_Right.uasset
+|       |       |               MF_Unarmed_Walk_Left.uasset
+|       |       |               MF_Unarmed_Walk_Right.uasset
+|       |       |               
+|       |       +---Materials
+|       |       |   |   M_Mannequin.uasset
+|       |       |   |   
+|       |       |   \---Manny
+|       |       |           MI_Manny_01_New.uasset
+|       |       |           MI_Manny_02_New.uasset
+|       |       |           
+|       |       +---Meshes
+|       |       |       SKM_Manny_Simple.uasset
+|       |       |       SK_Mannequin.uasset
+|       |       |       
+|       |       +---Rigs
+|       |       |       CR_Mannequin_Body.uasset
+|       |       |       CR_Mannequin_FootIK.uasset
+|       |       |       PA_Mannequin.uasset
+|       |       |       
+|       |       \---Textures
+|       |           +---Manny
+|       |           |       T_Manny_01_BN.uasset
+|       |           |       T_Manny_01_D.uasset
+|       |           |       T_Manny_01_MRA.uasset
+|       |           |       T_Manny_02_BN.uasset
+|       |           |       T_Manny_02_D.uasset
+|       |           |       T_Manny_02_MRA.uasset
+|       |           |       
+|       |           \---Shared
+|       |                   T_UE_Logo_M.uasset
+|       |                   
+|       +---JapaneseStyleRoom
+|       |   +---Blueprints
+|       |   |       BP_PCG_Stone.uasset
+|       |   |       BP_Ryokan_Lantern_02.uasset
+|       |   |       BP_Stones_01.uasset
+|       |   |       BP_SwitchLine.uasset
+|       |   |       
+|       |   +---Materials
+|       |   |   |   MI_Light_Inst.uasset
+|       |   |   |   MI_Light_Inst1.uasset
+|       |   |   |   MI_Light_Inst2.uasset
+|       |   |   |   MI_Sky_Inst.uasset
+|       |   |   |   MI_Unpolished_Marble_Floor_sk0kh0g_2K.uasset
+|       |   |   |   MI_Wood_Veneer_Wall_Panels_vlskbcz_2K.uasset
+|       |   |   |   MI_Wood_Veneer_Wall_Panels_vlskbcz_2K1.uasset
+|       |   |   |   M_Light.uasset
+|       |   |   |   M_MS_Surface_Material.uasset
+|       |   |   |   M_Sky.uasset
+|       |   |   |   
+|       |   |   +---Bluiding
+|       |   |   |       MI_Ryokan_RoofTiles_01.uasset
+|       |   |   |       MI_Ryokan_RoofTiles_02.uasset
+|       |   |   |       MI_Ryokan_WoodenTriMI_01.uasset
+|       |   |   |       MI_Ryokan_WoodenTriMI_02.uasset
+|       |   |   |       MI_Ryokan_WoodenTriMI_03.uasset
+|       |   |   |       M_Ryokan_WoodenTrim_Master.uasset
+|       |   |   |       M_SpanishCourtyard_MasterShader2.uasset
+|       |   |   |       
+|       |   |   +---Cloth
+|       |   |   |       M_Cloth_Anim.uasset
+|       |   |   |       
+|       |   |   +---Decal
+|       |   |   |       MI_Decal_Inst.uasset
+|       |   |   |       M_Decal.uasset
+|       |   |   |       
+|       |   |   +---MaterialFunction
+|       |   |   |       MF_OffsetMap.uasset
+|       |   |   |       MF_Wetness.uasset
+|       |   |   |       MF_Wind.uasset
+|       |   |   |       MF_WorldMapped.uasset
+|       |   |   |       
+|       |   |   +---MPC
+|       |   |   |       MPC_Stage.uasset
+|       |   |   |       MPC_Wind.uasset
+|       |   |   |       
+|       |   |   +---Plant
+|       |   |   |       MI_JapRyokan_GrassBlades01_Billboard_Mat2.uasset
+|       |   |   |       MI_JapRyokan_GrassBlades01_Leaf.uasset
+|       |   |   |       MI_Ryokan_GrassBlades01_Billboard_Mat_Inst.uasset
+|       |   |   |       MI_Ryokan_Grass_new_03_Billboard_Mat_Inst.uasset
+|       |   |   |       M_JapanseCourtyard_Grass_Flowers2_Leaf_Mat.uasset
+|       |   |   |       M_JapanseCourtyard_Grass__Flowers_Branch_Mat.uasset
+|       |   |   |       M_JapanseCourtyard_Grass__Flowers_Leaf_Mat.uasset
+|       |   |   |       M_JapRyokan_GrassBlades01_Billboard_Mat1.uasset
+|       |   |   |       M_JapRyokan_GrassBlades01_Billboard_Mat2.uasset
+|       |   |   |       M_JapRyokan_GrassBlades01_Leaf_Mat.uasset
+|       |   |   |       M_Ryokan_GrassBlades01__Billboard_Mat.uasset
+|       |   |   |       M_Ryokan_Grass_Flowers2_Bush_01_Billboard.uasset
+|       |   |   |       M_Ryokan_Grass_Flowers2_Bush_01_Branch_Mat.uasset
+|       |   |   |       M_Ryokan_Grass_Flowers2_Bush_01_Leaf_Mat.uasset
+|       |   |   |       M_Ryokan_Grass_Flowers2_Daisy_Yellow_Branch.uasset
+|       |   |   |       M_Ryokan_Grass_Flowers2_Daisy_Yellow_Leaf.uasset
+|       |   |   |       M_Ryokan_Pine_TreeTall_01_Branch_Mat.uasset
+|       |   |   |       M_ScotsPineBark_Branch_Mat.uasset
+|       |   |   |       M_Stem_Branch_Mat.uasset
+|       |   |   |       
+|       |   |   +---PostMaterials
+|       |   |   |       MI_OutLine.uasset
+|       |   |   |       M_OutLine.uasset
+|       |   |   |       
+|       |   |   +---Rock
+|       |   |   |       MI_Ryokan_FloorStones2.uasset
+|       |   |   |       M_Ryokan_FloorStones2.uasset
+|       |   |   |       
+|       |   |   +---SimpleColor
+|       |   |   |   |   MI_BasePBR_Inst.uasset
+|       |   |   |   |   MI_Light.uasset
+|       |   |   |   |   M_BasePBR.uasset
+|       |   |   |   |   M_Mask.uasset
+|       |   |   |   |   M_OutLine.uasset
+|       |   |   |   |   
+|       |   |   |   +---Furniture
+|       |   |   |   |       MI_Cloth.uasset
+|       |   |   |   |       MI_Cloth1.uasset
+|       |   |   |   |       MI_Cloth3.uasset
+|       |   |   |   |       MI_Glass.uasset
+|       |   |   |   |       MI_TataMi.uasset
+|       |   |   |   |       MI_TataMi1.uasset
+|       |   |   |   |       MI_Wall.uasset
+|       |   |   |   |       MI_Wall2.uasset
+|       |   |   |   |       MI_Wood_Inst.uasset
+|       |   |   |   |       MI_Wood_Inst1.uasset
+|       |   |   |   |       MI_Wood_Inst2.uasset
+|       |   |   |   |       MI_Wood_Inst3.uasset
+|       |   |   |   |       MI_Wood_Inst4.uasset
+|       |   |   |   |       MI_Wood_Inst5.uasset
+|       |   |   |   |       MI_Wood_Inst6.uasset
+|       |   |   |   |       MI_Wood_Inst7.uasset
+|       |   |   |   |       M_Wall.uasset
+|       |   |   |   |       M_Wood.uasset
+|       |   |   |   |       
+|       |   |   |   +---Plant
+|       |   |   |   |       MI_Flowerpot.uasset
+|       |   |   |   |       MI_Ground.uasset
+|       |   |   |   |       MI_Leaf.uasset
+|       |   |   |   |       MI_Stem.uasset
+|       |   |   |   |       
+|       |   |   |   \---Prop
+|       |   |   |           MI_Bag_Black.uasset
+|       |   |   |           MI_Box.uasset
+|       |   |   |           MI_Cloth.uasset
+|       |   |   |           MI_Pianno.uasset
+|       |   |   |           MI_Pianno_Black.uasset
+|       |   |   |           MI_Pianno_Black1.uasset
+|       |   |   |           MI_Pianno_Black2.uasset
+|       |   |   |           MI_Pianno_Black3.uasset
+|       |   |   |           MI_Pianno_white.uasset
+|       |   |   |           MI_Shoes.uasset
+|       |   |   |           MI_Water_Inst.uasset
+|       |   |   |           M_Water.uasset
+|       |   |   |           
+|       |   |   \---Tree
+|       |   |           MI_TreeLeaf_02.uasset
+|       |   |           MI_Tree_01.uasset
+|       |   |           M_TreeLeaf_01.uasset
+|       |   |           M_Tree_01.uasset
+|       |   |           
+|       |   +---Meshs
+|       |   |   |   SM_TaDian.uasset
+|       |   |   |   
+|       |   |   +---Build
+|       |   |   |       SM_Bookcase_01.uasset
+|       |   |   |       SM_Bookcase_02.uasset
+|       |   |   |       SM_Desk_01.uasset
+|       |   |   |       SM_Desk_02.uasset
+|       |   |   |       SM_Desk_03.uasset
+|       |   |   |       SM_Desk_04.uasset
+|       |   |   |       SM_Door.uasset
+|       |   |   |       SM_Door_01.uasset
+|       |   |   |       SM_Kotatsu_1.uasset
+|       |   |   |       SM_LiangTing.uasset
+|       |   |   |       SM_Roof.uasset
+|       |   |   |       SM_Roof_01.uasset
+|       |   |   |       SM_Ryokan_Geo_05_Stairs_01.uasset
+|       |   |   |       SM_Ryokan_Geo_09_Roof_Corner_01.uasset
+|       |   |   |       SM_Ryokan_Geo_09_Roof_Front_01.uasset
+|       |   |   |       SM_Ryokan_Wooden_Pillar_500uu_01.uasset
+|       |   |   |       SM_Stair.uasset
+|       |   |   |       SM_Structure.uasset
+|       |   |   |       SM_Structure_01.uasset
+|       |   |   |       SM_Structure_02.uasset
+|       |   |   |       SM_Table.uasset
+|       |   |   |       SM_TataMi.uasset
+|       |   |   |       SM_Wall.uasset
+|       |   |   |       SM_Wall_2.uasset
+|       |   |   |       SM_Win_01.uasset
+|       |   |   |       SM_Win_02.uasset
+|       |   |   |       SM_Win_03.uasset
+|       |   |   |       SM_Win_04.uasset
+|       |   |   |       SM_Win_05.uasset
+|       |   |   |       SM_Win_06.uasset
+|       |   |   |       
+|       |   |   +---ElectronicEquipment
+|       |   |   |       SM_DVD.uasset
+|       |   |   |       SM_KeyBoard.uasset
+|       |   |   |       SM_MIDI.uasset
+|       |   |   |       SM_Mouse.uasset
+|       |   |   |       SM_Switch_Switch.uasset
+|       |   |   |       SM_Switch_Switch_001.uasset
+|       |   |   |       SM_TV.uasset
+|       |   |   |       
+|       |   |   +---Furniture
+|       |   |   |       SM_Bed.uasset
+|       |   |   |       SM_Chair.uasset
+|       |   |   |       SM_Kotatsu.uasset
+|       |   |   |       SM_Light.uasset
+|       |   |   |       SM_Pillow_01.uasset
+|       |   |   |       SM_TataMi.uasset
+|       |   |   |       
+|       |   |   +---Music
+|       |   |   |       SM_Guitar.uasset
+|       |   |   |       SM_Harmonica.uasset
+|       |   |   |       
+|       |   |   +---PCG
+|       |   |   |       SM_Line.uasset
+|       |   |   |       SM_LineCach.uasset
+|       |   |   |       
+|       |   |   +---Plant
+|       |   |   |       SM_JapRyokan_GrassBlades01.uasset
+|       |   |   |       SM_Potted_05.uasset
+|       |   |   |       SM_Potted_07.uasset
+|       |   |   |       SM_Ryokan_Flowers_Pink_Type_01.uasset
+|       |   |   |       SM_Ryokan_Flowers_Pink_Type_02.uasset
+|       |   |   |       SM_Ryokan_Grass_Flowers2_Bush_01.uasset
+|       |   |   |       SM_Ryokan_Grass_Flowers2_Daisy_Yellow.uasset
+|       |   |   |       SM_Ryokan_Grass_Type_02.uasset
+|       |   |   |       SM_Ryokan_Grass_Type_03.uasset
+|       |   |   |       SM_Ryokan_Pine_TreeTall_01.uasset
+|       |   |   |       SM_Tree_01.uasset
+|       |   |   |       
+|       |   |   +---Props
+|       |   |   |   |   SM_Bag.uasset
+|       |   |   |   |   SM_BOX_Cube_224.uasset
+|       |   |   |   |   SM_BOX_Cube_225.uasset
+|       |   |   |   |   SM_Clothes_drying_pole.uasset
+|       |   |   |   |   SM_Cloth_01.uasset
+|       |   |   |   |   SM_Cloth_02.uasset
+|       |   |   |   |   SM_Hanger.uasset
+|       |   |   |   |   SM_Hook.uasset
+|       |   |   |   |   SM_Ryokan_Lantern_Ground_02.uasset
+|       |   |   |   |   SM_Shoes_01.uasset
+|       |   |   |   |   SM_Shoes_02.uasset
+|       |   |   |   |   
+|       |   |   |   \---Fenglin
+|       |   |   |           ABP_Feng.uasset
+|       |   |   |           Anim_Feng_01.uasset
+|       |   |   |           Anim_Feng_02.uasset
+|       |   |   |           SKM_Feng.uasset
+|       |   |   |           SK_Feng.uasset
+|       |   |   |           
+|       |   |   \---Rocks
+|       |   |           SM_RockSculpted.uasset
+|       |   |           SM_Ryokan_GroundStone_01_HR.uasset
+|       |   |           SM_Ryokan_GroundStone_02.uasset
+|       |   |           SM_Ryokan_GroundStone_03.uasset
+|       |   |           SM_Ryokan_GroundStone_04.uasset
+|       |   |           SM_Ryokan_SmallStone_05.uasset
+|       |   |           SM_Ryokan_StoneCluster_Round_02.uasset
+|       |   |           SM_Ryokan_StoneCluster_Wall_01.uasset
+|       |   |           SM_Ryokan_Stone_Big_01.uasset
+|       |   |           SM_Ryokan_Stone_Big_02.uasset
+|       |   |           SM_Ryokan_Stone_Big_03.uasset
+|       |   |           
+|       |   +---PCG
+|       |   |       PCG_Stone.uasset
+|       |   |       
+|       |   \---Texture
+|       |       |   T_Cloth.uasset
+|       |       |   T_LightMap.uasset
+|       |       |   T_OIP-C.uasset
+|       |       |   T_Props01.uasset
+|       |       |   T_Props02.uasset
+|       |       |   T_Props03.uasset
+|       |       |   T_TataMi_Base.uasset
+|       |       |   T_TataMi_Base_01.uasset
+|       |       |   T_TataMi_Normal.uasset
+|       |       |   T_UnpolishedMarbleFloor_sk0kh0g_2K_ORDp.uasset
+|       |       |   T_Unpolished_Marble_Floor_sk0kh0g_2K_D.uasset
+|       |       |   T_Unpolished_Marble_Floor_sk0kh0g_2K_N.uasset
+|       |       |   T_WoodVeneerWallPanels_vlskbcz_2K_ORDp.uasset
+|       |       |   T_Wood_Veneer_Wall_Panels_vlskbcz_2K_D.uasset
+|       |       |   T_Wood_Veneer_Wall_Panels_vlskbcz_2K_N.uasset
+|       |       |   
+|       |       +---Bluiding
+|       |       |       T_SpanishCourtyard_PaintedMetal_basecolor.uasset
+|       |       |       T_SpanishCourtyard_PaintedMetal_metallic.uasset
+|       |       |       T_SpanishCourtyard_PaintedMetal_normal.uasset
+|       |       |       T_SpanishCourtyard_PaintedMetal_roughness.uasset
+|       |       |       T_SpanishCourtyard_WoddenTrim_01_basecolor.uasset
+|       |       |       T_SpanishCourtyard_WoddenTrim_01_normal.uasset
+|       |       |       T_SpanishCourtyard_WoddenTrim_01_roughness.uasset
+|       |       |       
+|       |       +---Decal
+|       |       |       T_Decal.uasset
+|       |       |       
+|       |       +---HDR
+|       |       |       T_Night.uasset
+|       |       |       T_Sky.uasset
+|       |       |       
+|       |       +---Plant
+|       |       |       T_Grass_03.uasset
+|       |       |       T_JapanseCourtyard_Grass_Flowers2_Billboard.uasset
+|       |       |       T_JapanseCourtyard_Grass_Flowers2_Bush_01_SSS.uasset
+|       |       |       T_JapanseCourtyard_Grass_Flowers2_Color_png_Tex.uasset
+|       |       |       T_JapanseCourtyard_Grass_Flowers2_N.uasset
+|       |       |       T_JapanseCourtyard_Grass_Flowers2_SSS.uasset
+|       |       |       T_JapanseCourtyard_Grass__Flowers_C.uasset
+|       |       |       T_JapanseCourtyard_Grass__Flowers_N.uasset
+|       |       |       T_JapanseCourtyard_Grass__Flowers_SSS.uasset
+|       |       |       T_JapRyokan_GrassBlades01_Color_Tex.uasset
+|       |       |       T_JapRyokan_GrassBlades01_Normal_Tex.uasset
+|       |       |       T_RyokanGrassBlades_SSS_Gradient.uasset
+|       |       |       T_Ryokan_GrassBlades01_Billboard_C.uasset
+|       |       |       T_Ryokan_GrassBlades01_Billboard_N.uasset
+|       |       |       T_Ryokan_GrassBlades01_SSS.uasset
+|       |       |       T_Ryokan_Grass_04_Billboard_C.uasset
+|       |       |       T_Ryokan_Grass_04_Billboard_N.uasset
+|       |       |       T_Ryokan_Grass_04_Billboard_SSS.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Bush_01_Billboard.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Bush_01_Billboard_N.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Bush_01_C.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Bush_01_Normal.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Daisy_Yellow_C.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Daisy_Yellow_N.uasset
+|       |       |       T_Ryokan_Grass_Flowers2_Daisy_Yellow_SSS.uasset
+|       |       |       T_Ryokan_Grass_new_03_Billboard_C.uasset
+|       |       |       T_Ryokan_Grass_new_03_Billboard_SSS.uasset
+|       |       |       T_Ryokan_Grass_new_03_N.uasset
+|       |       |       T_Ryokan_Pine_Tall_01_C.uasset
+|       |       |       T_Ryokan_Pine_TreeTall_01_N.uasset
+|       |       |       T_ScotsPineBark_Color_png_Tex.uasset
+|       |       |       T_ScotsPineBark_Normal_png_Tex.uasset
+|       |       |       T_Stem_Color_png_Tex.uasset
+|       |       |       T_Stem_Normal_png_Tex.uasset
+|       |       |       T_Tree_01.uasset
+|       |       |       
+|       |       +---Rock
+|       |       |       T_Ryokan_FloorStones_Albedo.uasset
+|       |       |       T_Ryokan_FloorStones_Displacement.uasset
+|       |       |       T_Ryokan_FloorStones_Normal.uasset
+|       |       |       T_Ryokan_FloorStones_Roughness.uasset
+|       |       |       
+|       |       +---Wall
+|       |       |       T_Wall_Base.uasset
+|       |       |       T_Wall_Normal.uasset
+|       |       |       T_Wall_Roughness.uasset
+|       |       |       
+|       |       \---Wood
+|       |               T_WoodNoise_INST_basecolor.uasset
+|       |               
+|       \---vhnofbds_tier_2
+|           +---Materials
+|           |       MI_vhnofbds.uasset
+|           |       
+|           +---StaticMeshes
+|           |       vhnofbds_tier_2.uasset
+|           |       
+|           \---Textures
+|                   T_vhnofbds_2K_B.uasset
+|                   T_vhnofbds_2K_N.uasset
+|                   T_vhnofbds_2K_ORM.uasset
+|                   
++---Developers
+|   \---Jokerwolf
+|       \---Collections
++---LevelPrototyping
+|   +---Interactable
+|   |   +---Door
+|   |   |   \---Assets
+|   |   |       \---Meshes
+|   |   \---Target
+|   |       \---Assets
+|   +---Materials
+|   +---Meshes
+|   |       SM_SM_ChamferCube.fbx
+|   |       
+|   \---Textures
++---__ExternalActors__
+|   +---FirstPerson
+|   |   \---Lvl_FirstPerson
+|   |       +---0
+|   |       |   +---44
+|   |       |   +---56
+|   |       |   +---9C
+|   |       |   +---B0
+|   |       |   +---ER
+|   |       |   +---GZ
+|   |       |   \---QF
+|   |       +---1
+|   |       |   +---2T
+|   |       |   +---CC
+|   |       |   +---IH
+|   |       |   +---TT
+|   |       |   +---VO
+|   |       |   \---WL
+|   |       +---2
+|   |       |   +---1X
+|   |       |   +---EG
+|   |       |   +---NN
+|   |       |   +---OC
+|   |       |   \---SP
+|   |       +---3
+|   |       |   +---8B
+|   |       |   \---BN
+|   |       +---4
+|   |       |   +---3X
+|   |       |   +---6J
+|   |       |   +---8V
+|   |       |   +---IJ
+|   |       |   +---N3
+|   |       |   +---QB
+|   |       |   \---XL
+|   |       +---5
+|   |       |   +---TI
+|   |       |   +---UU
+|   |       |   \---V6
+|   |       +---6
+|   |       |   +---6I
+|   |       |   +---96
+|   |       |   +---I5
+|   |       |   \---U8
+|   |       +---7
+|   |       |   +---HV
+|   |       |   \---NI
+|   |       +---8
+|   |       |   +---2H
+|   |       |   +---7M
+|   |       |   +---I3
+|   |       |   +---KL
+|   |       |   +---QY
+|   |       |   \---W2
+|   |       +---9
+|   |       |   +---3M
+|   |       |   +---8O
+|   |       |   +---9S
+|   |       |   +---AC
+|   |       |   +---D2
+|   |       |   +---LJ
+|   |       |   \---NX
+|   |       +---A
+|   |       |   +---2N
+|   |       |   +---HH
+|   |       |   +---J3
+|   |       |   \---U0
+|   |       +---B
+|   |       |   +---TG
+|   |       |   \---U9
+|   |       +---C
+|   |       |   +---0I
+|   |       |   \---GO
+|   |       +---D
+|   |       |   +---BL
+|   |       |   +---C7
+|   |       |   +---IP
+|   |       |   +---LE
+|   |       |   +---R5
+|   |       |   +---TO
+|   |       |   +---V1
+|   |       |   \---W0
+|   |       \---E
+|   |           +---P7
+|   |           \---UG
+|   \---InteractionSystem
+|       \---Demo
+|           \---ThirdPerson
+|               \---Lvl_ThirdPerson
+|                   +---0
+|                   |   +---A7
+|                   |   +---J0
+|                   |   +---N9
+|                   |   +---RC
+|                   |   +---UH
+|                   |   +---W7
+|                   |   \---Z4
+|                   +---1
+|                   |   +---7O
+|                   |   +---B4
+|                   |   +---H9
+|                   |   +---JD
+|                   |   \---RQ
+|                   +---2
+|                   |   +---11
+|                   |   +---EG
+|                   |   +---EX
+|                   |   +---OL
+|                   |   +---PE
+|                   |   \---WH
+|                   +---3
+|                   |   +---34
+|                   |   +---83
+|                   |   +---I9
+|                   |   +---KC
+|                   |   +---RE
+|                   |   \---V0
+|                   +---4
+|                   |   +---6O
+|                   |   +---HR
+|                   |   +---I6
+|                   |   +---UI
+|                   |   +---VK
+|                   |   \---WT
+|                   +---5
+|                   |   +---4C
+|                   |   +---DN
+|                   |   \---XA
+|                   +---6
+|                   |   +---6P
+|                   |   +---FW
+|                   |   +---GE
+|                   |   \---YX
+|                   +---7
+|                   |   +---03
+|                   |   +---85
+|                   |   +---MR
+|                   |   \---Q0
+|                   +---8
+|                   |   +---2M
+|                   |   +---BY
+|                   |   +---JF
+|                   |   \---XL
+|                   +---9
+|                   |   +---5R
+|                   |   +---L2
+|                   |   +---SI
+|                   |   \---SN
+|                   +---A
+|                   |   +---FT
+|                   |   +---QG
+|                   |   \---XG
+|                   +---B
+|                   |   +---CH
+|                   |   \---JM
+|                   +---C
+|                   |   +---1P
+|                   |   +---A9
+|                   |   +---GF
+|                   |   \---VM
+|                   +---D
+|                   |   +---3F
+|                   |   +---AG
+|                   |   +---FV
+|                   |   \---XG
+|                   +---E
+|                   |   \---WG
+|                   \---F
+|                       +---4S
+|                       \---59
+\---__ExternalObjects__
+    +---FirstPerson
+    |   \---Lvl_FirstPerson
+    |       \---1
+    |           \---E5
+    \---InteractionSystem
+        \---Demo
+            \---ThirdPerson
+                \---Lvl_ThirdPerson
+                    +---A
+                    |   \---TK
+                    \---F
+                        \---1L

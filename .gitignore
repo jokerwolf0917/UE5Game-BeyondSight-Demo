@@ -1,0 +1,28 @@
+# Unreal Engine 5 Gitignore
+
+# Binaries
+Binaries/
+*/Binaries/
+*.sln
+*.xcodeproj
+
+# Builds
+Build/
+Saved/
+Intermediate/
+DerivedDataCache/
+
+# IDE files
+.idea/
+.vscode/
+.vs/
+*.opensdf
+*.sdf
+*.suo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Plugins (Optional: decide if you want to upload plugins)
+# Plugins/
