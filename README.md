@@ -1,5 +1,6 @@
 # UE5 Portfolio Project: Blind Protagonist & Guide Dog System
 
+**👉 [Click Here to Watch the Technical & Gameplay Demo on YouTube](https://youtu.be/8wcCgXnQruQ)**
 ## 📖 Project Overview
 This project is a third-person narrative game prototype developed in **Unreal Engine 5**. It features a unique non-photorealistic rendering style to simulate the experience of a blind protagonist and implements a robust dual-character control system (Human & Guide Dog).
 
